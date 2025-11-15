@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="hbd.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>MATCH</h1>
+        
+        <div id="table">
+            <div class="row">
+                <button id="1" onclick="play(this,0,0)"></button><button onclick="play(this,0,1)"></button><button onclick="play(this,0,2)"></button>              
+            </div>
+
+            <div class="row">
+                <button onclick="play(this,1,0)"></button><button onclick="play(this,1,1)"></button><button onclick="play(this,1,2)"></button>              
+            </div>
+
+            <div class="row">
+                <button onclick="play(this,2,0)"></button><button  onclick="play(this,2,1)"></button><button onclick="play(this,2,2)"></button>              
+            </div>
+        </div>
+
+        <h2 id="announcer"></h2>
+
+        <script src="Scripts/counter.js"></script>
+    </body>
+</html>
